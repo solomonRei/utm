@@ -1,0 +1,79 @@
+[2023-10-04 08:19:19] Student ed9@mail.ru was successfully graduated
+[2023-10-04 08:19:27] Student with email edik@mail.ru already exists
+[2023-10-04 08:19:27] Student with email edik2@mail.ru already exists
+[2023-10-04 08:19:27] Student with email edik3@mail.ru already exists
+[2023-10-04 08:19:27] Student with email edik4@mail.ru already exists
+[2023-10-04 08:19:27] Student with email edik5@mail.ru already exists
+[2023-10-04 08:19:27] Faculty with abbreviation fafs does not exist
+[2023-10-04 08:19:35] Student edik@mail.ru was successfully graduated
+[2023-10-04 08:19:35] Student edik2@mail.ru was successfully graduated
+[2023-10-04 08:19:35] Student edik3@mail.ru was successfully graduated
+[2023-10-04 08:19:35] Student edik4@mail.ru was successfully graduated
+[2023-10-04 08:19:35] Student edik5@mail.ru was successfully graduated
+[2023-10-04 08:19:35] Can’t graduate student: edik6@mail.ruStudent with email edik6@mail.ru does not exist
+[2023-10-04 13:39:28] Wrong Command: g
+[2023-10-04 13:53:37] Wrong Command: а
+[2023-10-04 13:54:24] Wrong Command: gg
+[2023-10-04 14:01:36] Wrong Command: bb
+[2023-10-04 14:01:37] Wrong Command: bb
+[2023-10-04 14:07:16] Wrong Command: g
+[2023-10-04 14:07:48] Wrong Command: s
+[2023-10-04 14:08:53] Student test3@mail.ru was successfully saved
+[2023-10-04 14:09:13] Student edik@mail.ru was successfully graduated
+[2023-10-04 14:10:09] Can’t graduate student: test3@mailStudent with email test3@mail does not exist
+[2023-10-04 14:12:24] Can’t graduate student: edik@mail.ruStudent with email edik@mail.ru is already graduated
+[2023-10-04 14:13:57] Wrong Command: s
+[2023-10-04 14:14:06] Wrong amount of parameters for command: dff
+ Expected: 1 Actual: 0
+[2023-10-04 14:14:11] Student with email edik@mail.ru already exists
+[2023-10-04 14:14:11] Student with email edik2@mail.ru already exists
+[2023-10-04 14:14:11] Student with email edik3@mail.ru already exists
+[2023-10-04 14:14:11] Student with email edik4@mail.ru already exists
+[2023-10-04 14:14:11] Student with email edik5@mail.ru already exists
+[2023-10-04 14:14:11] Faculty with abbreviation fafs does not exist
+[2023-10-04 14:14:18] Can’t graduate student: edik@mail.ruStudent with email edik@mail.ru is already graduated
+[2023-10-04 14:14:18] Can’t graduate student: edik2@mail.ruStudent with email edik2@mail.ru is already graduated
+[2023-10-04 14:14:18] Can’t graduate student: edik3@mail.ruStudent with email edik3@mail.ru is already graduated
+[2023-10-04 14:14:18] Can’t graduate student: edik4@mail.ruStudent with email edik4@mail.ru is already graduated
+[2023-10-04 14:14:18] Can’t graduate student: edik5@mail.ruStudent with email edik5@mail.ru is already graduated
+[2023-10-04 14:14:18] Can’t graduate student: edik6@mail.ruStudent with email edik6@mail.ru does not exist
+[2023-10-04 14:15:23] Faculty created successfully.
+[2023-10-04 15:54:21] Invalid studyField: ssss
+[2023-10-04 17:43:55] Can’t graduate student: edStudent with email ed does not exist
+[2023-10-04 17:43:59] Can’t graduate student: edik@mail.ruStudent with email edik@mail.ru is already graduated
+[2023-10-04 17:49:11] Error while executing command: dff
+[2023-10-04 17:50:58] Invalid studyField: ggh
+[2023-10-04 17:52:03] Wrong Command: hj
+[2023-10-04 17:58:21] Wrong amount of parameters for command: nf
+ Expected: 3 Actual: 0
+[2023-10-04 17:58:44] Faculty created successfully.
+[2023-10-04 17:59:12] Faculty created successfully.
+[2023-10-04 17:59:32] Faculty with abbreviation faf already exists
+[2023-10-04 17:59:39] Faculty created successfully.
+[2023-10-04 18:00:21] Student edik@mail.ru was successfully saved
+[2023-10-04 18:00:38] Student max@mail.ru was successfully saved
+[2023-10-04 18:01:24] Student nastea@mail.ru was successfully saved
+[2023-10-04 18:02:04] Invalid studyField: ggg
+[2023-10-04 18:02:50] Student edik@mail.ru was successfully graduated
+[2023-10-04 18:03:08] Getting the list of students enrolled in university
+[2023-10-04 18:03:11] Getting the list of students enrolled in university
+[2023-10-04 18:03:11] No students enrolled in university
+[2023-10-04 18:03:14] Getting the list of students enrolled in university
+[2023-10-04 18:03:14] No students enrolled in university
+[2023-10-04 18:03:26] Wrong amount of parameters for command: df
+ Expected: 0 Actual: 1
+[2023-10-04 18:03:33] Getting the list of students graduated from university
+[2023-10-04 18:03:36] Getting the list of students graduated from university
+[2023-10-04 18:03:36] No students graduated from university
+[2023-10-04 18:06:23] Starting batch enroll operation
+[2023-10-04 18:06:23] Student with email edik@mail.ru already exists
+[2023-10-04 18:06:23] Student edik2@mail.ru was successfully saved
+[2023-10-04 18:06:28] Starting batch enroll operation
+[2023-10-04 18:06:28] Student with email edik@mail.ru already exists
+[2023-10-04 18:06:28] Student with email edik2@mail.ru already exists
+[2023-10-04 18:06:32] Starting batch graduation operation
+[2023-10-04 18:06:32] Can’t graduate student: edik@mail.ruStudent with email edik@mail.ru is already graduated
+[2023-10-04 18:06:32] Student edik2@mail.ru was successfully graduated
+[2023-10-04 18:06:37] Starting batch graduation operation
+[2023-10-04 18:06:37] Can’t graduate student: edik@mail.ruStudent with email edik@mail.ru is already graduated
+[2023-10-04 18:06:37] Can’t graduate student: edik2@mail.ruStudent with email edik2@mail.ru is already graduated

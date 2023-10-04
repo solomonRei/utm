@@ -1,0 +1,6 @@
+faf|Edik|Smelov|edik@mail.ru|19-12-2003
+faf|Edik|Smelov|edik2@mail.ru|19-12-2003
+faf|Edik|Smelov|edik3@mail.ru|19-12-2003
+faf|Edik|Smelov|edik4@mail.ru|19-12-2003
+bim|Edik|Smelov|edik5@mail.ru|19-12-2003
+fafs|Edik|Smelov|edik6@mail.ru|19-12-2003
