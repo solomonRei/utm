@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6af9302-f0ee-4dc8-99f5-d315d133a364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/utm/lab0/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/utm/lab0/Spaceship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/batch_graduation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/batch_graduation.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/students.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/students.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +52,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -95,7 +90,13 @@
       <option name="presentableId" value="Default" />
       <updated>1695638729534</updated>
       <workItem from="1695638730573" duration="5151000" />
-      <workItem from="1696177149588" duration="68054000" />
+      <workItem from="1696177149588" duration="68454000" />
+      <workItem from="1696433927466" duration="3321000" />
+      <workItem from="1696849277096" duration="2104000" />
+      <workItem from="1697385324759" duration="1264000" />
+      <workItem from="1697741596694" duration="1834000" />
+      <workItem from="1697890870324" duration="4200000" />
+      <workItem from="1698128338298" duration="4064000" />
     </task>
     <servers />
   </component>
@@ -130,6 +131,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/utm/lab1/factory/BeanFactory.java</url>
           <line>79</line>
           <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/utm/lab2/services/FileChangeDetector.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/utm/lab2/services/FileChangeDetector.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/utm/lab2/services/FileChangeDetector.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

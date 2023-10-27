@@ -77,3 +77,12 @@
 [2023-10-04 18:06:37] Starting batch graduation operation
 [2023-10-04 18:06:37] Can’t graduate student: edik@mail.ruStudent with email edik@mail.ru is already graduated
 [2023-10-04 18:06:37] Can’t graduate student: edik2@mail.ruStudent with email edik2@mail.ru is already graduated
+[2023-10-09 14:21:30] Student edik23@mail.ru was successfully saved
+[2023-10-09 14:21:58] Getting the list of students enrolled in university
+[2023-10-09 14:23:32] Starting batch graduation operation
+[2023-10-09 14:23:32] Student nastea@mail.ru was successfully graduated
+[2023-10-09 14:23:32] Student edik23@mail.ru was successfully graduated
+[2023-10-09 14:23:45] Getting the list of students enrolled in university
+[2023-10-09 14:23:53] Getting the list of students enrolled in university
+[2023-10-09 14:23:53] No students enrolled in university
+[2023-10-09 14:24:00] Getting the list of students graduated from university
