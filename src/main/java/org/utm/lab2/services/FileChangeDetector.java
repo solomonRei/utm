@@ -11,32 +11,21 @@ import java.util.Map;
 
 public class FileChangeDetector extends ChangeDetector {
 
-    private final String folderPath;
-
-    private final Map<String, Long> fileLastModifiedMap = new HashMap<>();
-
     private List<String> changeMessages = new ArrayList<>();
 
     private long snapshotTime = System.currentTimeMillis();
 
+    private final Map<String, Long> fileLastModifiedMap = new HashMap<>();
+
+
     public FileChangeDetector(String folderPath) {
-        this.folderPath = folderPath;
+        super(folderPath);
     }
 
     @Override
     public void detectChanges() {
-        File folder = new File(folderPath);
-        if (!folder.exists() || !folder.isDirectory()) {
-            System.out.println("The specified path is not a valid directory: " + folderPath);
-            return;
-        }
-
-        File[] listOfFiles = folder.listFiles();
-
-        if (listOfFiles == null) {
-            System.out.println("Unable to list files from the directory: " + folderPath);
-            return;
-        }
+        File[] listOfFiles = getListOfFiles();
+        if (listOfFiles == null) return;
 
         changeMessages = new ArrayList<>();
 
@@ -64,18 +53,8 @@ public class FileChangeDetector extends ChangeDetector {
     }
 
     public void commit() {
-        File folder = new File(folderPath);
-        if (!folder.exists() || !folder.isDirectory()) {
-            System.out.println("The specified path is not a valid directory: " + folderPath);
-            return;
-        }
-
-        File[] listOfFiles = folder.listFiles();
-
-        if (listOfFiles == null) {
-            System.out.println("Unable to list files from the directory: " + folderPath);
-            return;
-        }
+        File[] listOfFiles = getListOfFiles();
+        if (listOfFiles == null) return;
 
         for (File file : listOfFiles) {
             if (file.isFile()) {

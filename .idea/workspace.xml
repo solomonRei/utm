@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6af9302-f0ee-4dc8-99f5-d315d133a364" name="Changes" comment="Mark 9: Added functionality to detect deleted, added files. Added DateUtils class. Added FileInfo Class" />
+    <list default="true" id="f6af9302-f0ee-4dc8-99f5-d315d133a364" name="Changes" comment="Mark 8: Added functionality info command (FileInfoUtils.class). Added DateUtils class.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/utm/lab2/services/ChangeDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/utm/lab2/services/ChangeDetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/utm/lab2/services/FileChangeDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/utm/lab2/services/FileChangeDetector.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +105,7 @@
       <workItem from="1697385324759" duration="1264000" />
       <workItem from="1697741596694" duration="1834000" />
       <workItem from="1697890870324" duration="4200000" />
-      <workItem from="1698128338298" duration="7344000" />
+      <workItem from="1698128338298" duration="7938000" />
     </task>
     <task id="LOCAL-00001" summary="Mark 8: Added functionality commit command and status command.">
       <option name="closed" value="true" />
@@ -127,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698426408094</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Mark 8: Added functionality info command (FileInfoUtils.class). Added DateUtils class.">
+      <option name="closed" value="true" />
+      <created>1698426666627</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698426666627</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +159,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mark 8: Added functionality commit command and status command." />
     <MESSAGE value="Mark 9: Added functionality to detect deleted, added files. Added DateUtils class. Added FileInfo Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mark 9: Added functionality to detect deleted, added files. Added DateUtils class. Added FileInfo Class" />
+    <MESSAGE value="Mark 8: Added functionality info command (FileInfoUtils.class). Added DateUtils class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Mark 8: Added functionality info command (FileInfoUtils.class). Added DateUtils class." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
