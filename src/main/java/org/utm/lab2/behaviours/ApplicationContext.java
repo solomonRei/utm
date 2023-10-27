@@ -1,33 +1,33 @@
 package org.utm.lab2.behaviours;
 
-import org.utm.lab2.services.FileChangeDetector;
-
 import java.util.Scanner;
 
 public class ApplicationContext {
 
-    private final String folderPath;
+    private final DetectionThread detectionThread;
 
     public ApplicationContext(String folderPath) {
-        this.folderPath = folderPath;
+        this.detectionThread = new DetectionThread(folderPath);
     }
 
     public void run() {
-        FileChangeDetector detector = new FileChangeDetector(folderPath);
+        detectionThread.startScheduler();
 
         Scanner scanner = new Scanner(System.in);
         while (true) {
-            System.out.println("Enter command (commit, info <filename>, status, exit):");
+            System.out.println("Enter command (commit, info, status, exit):");
             String command = scanner.nextLine();
+
             switch (command) {
-                case "commit" -> detector.commit();
+                case "commit" -> detectionThread.commitForConsole();
                 case "info" -> {
                     System.out.println("Enter file name:");
                     String fileName = scanner.nextLine();
-                    detector.info(fileName);
+                    detectionThread.infoForConsole(fileName);
                 }
-                case "status" -> detector.status();
+                case "status" -> detectionThread.statusForConsole();
                 case "exit" -> {
+                    detectionThread.stop();
                     scanner.close();
                     System.exit(0);
                 }
@@ -37,3 +37,5 @@ public class ApplicationContext {
     }
 
 }
+
+

@@ -1,8 +1,6 @@
-package org.utm.lab2.services;
+package org.utm.lab2.services.abstracts;
 
 import java.io.File;
-import java.util.HashMap;
-import java.util.Map;
 
 abstract public class ChangeDetector {
 
