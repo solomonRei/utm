@@ -1,7 +1,8 @@
 package org.utm.lab2.services.abstracts;
 
 import org.utm.lab2.utils.DateUtils;
-import org.utm.lab2.utils.FileInfoUtils;
+import org.utm.lab2.utils.files.abstracts.FileDetails;
+import org.utm.lab2.utils.files.factory.FileDetailsFactory;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -52,8 +53,9 @@ public abstract class AbstractChangeDetector extends ChangeDetector {
     }
 
     public void info(String fileName) {
-        var fileInfoUtils = new FileInfoUtils(folderPath);
-        fileInfoUtils.info(fileName);
+        FileDetailsFactory factory = new FileDetailsFactory(folderPath);
+        FileDetails details = factory.getFileDetails(fileName);
+        details.info(fileName);
     }
 
     public void status() {

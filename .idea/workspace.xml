@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6af9302-f0ee-4dc8-99f5-d315d133a364" name="Changes" comment="Changed the structure, to use inheritance and polymorphism">
+    <list default="true" id="f6af9302-f0ee-4dc8-99f5-d315d133a364" name="Changes" comment="Mark 10: added Scheduler and concurrency multithreading approach">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/utm/lab2/behaviours/ApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/utm/lab2/behaviours/ApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/utm/lab2/services/ChangeDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/utm/lab2/services/abstracts/ChangeDetector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/utm/lab2/services/FileChangeDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/utm/lab2/services/FileChangeDetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/utm/lab2/services/abstracts/AbstractChangeDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/utm/lab2/services/abstracts/AbstractChangeDetector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/lab2/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lab2/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +105,7 @@
       <workItem from="1697385324759" duration="1264000" />
       <workItem from="1697741596694" duration="1834000" />
       <workItem from="1697890870324" duration="4200000" />
-      <workItem from="1698128338298" duration="12158000" />
+      <workItem from="1698128338298" duration="13838000" />
     </task>
     <task id="LOCAL-00001" summary="Mark 8: Added functionality commit command and status command.">
       <option name="closed" value="true" />
@@ -149,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698427105261</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Mark 10: added Scheduler and concurrency multithreading approach">
+      <option name="closed" value="true" />
+      <created>1698431476951</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698431476951</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +177,8 @@
     <MESSAGE value="Mark 9: Added functionality to detect deleted, added files. Added DateUtils class. Added FileInfo Class" />
     <MESSAGE value="Mark 8: Added functionality info command (FileInfoUtils.class). Added DateUtils class." />
     <MESSAGE value="Changed the structure, to use inheritance and polymorphism" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed the structure, to use inheritance and polymorphism" />
+    <MESSAGE value="Mark 10: added Scheduler and concurrency multithreading approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mark 10: added Scheduler and concurrency multithreading approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -190,41 +197,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/utm/lab1/factory/BeanFactory.java</url>
           <line>79</line>
           <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/utm/lab2/services/abstracts/AbstractChangeDetector.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/utm/lab2/services/abstracts/AbstractChangeDetector.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/utm/lab2/services/abstracts/AbstractChangeDetector.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/utm/lab2/services/abstracts/AbstractChangeDetector.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/utm/lab2/services/abstracts/AbstractChangeDetector.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/utm/lab2/behaviours/DetectionThread.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/utm/lab2/behaviours/DetectionThread.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="61" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
