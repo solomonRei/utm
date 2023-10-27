@@ -1,5 +1,8 @@
 package org.utm.lab2.services;
 
+import org.utm.lab2.utils.DateUtils;
+import org.utm.lab2.utils.FileInfoUtils;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -43,13 +46,11 @@ public class FileChangeDetector extends ChangeDetector {
                 if (fileLastModifiedMap.containsKey(file.getName())) {
                     if (fileLastModifiedMap.get(file.getName()) != lastModified) {
                         changeMessages.add(file.getName() + " - Changed");
-                        fileLastModifiedMap.put(file.getName(), lastModified);
                     } else {
                         changeMessages.add(file.getName() + " - No Change");
                     }
                 } else {
                     changeMessages.add(file.getName() + " - Added");
-                    fileLastModifiedMap.put(file.getName(), lastModified);
                 }
             }
         }
@@ -58,30 +59,38 @@ public class FileChangeDetector extends ChangeDetector {
             File file = new File(folderPath + "/" + fileName);
             if (!file.exists()) {
                 changeMessages.add(fileName + " - Deleted");
-                fileLastModifiedMap.remove(fileName);
             }
         }
     }
 
     public void commit() {
-        detectChanges();
-        snapshotTime = System.currentTimeMillis();
-        System.out.println("Created Snapshot at: " + snapshotTime);
-        for (String message : changeMessages) {
-            System.out.println(message);
+        File folder = new File(folderPath);
+        if (!folder.exists() || !folder.isDirectory()) {
+            System.out.println("The specified path is not a valid directory: " + folderPath);
+            return;
         }
 
+        File[] listOfFiles = folder.listFiles();
 
+        if (listOfFiles == null) {
+            System.out.println("Unable to list files from the directory: " + folderPath);
+            return;
+        }
+
+        for (File file : listOfFiles) {
+            if (file.isFile()) {
+                long lastModified = file.lastModified();
+                fileLastModifiedMap.put(file.getName(), lastModified);
+            }
+        }
+
+        snapshotTime = System.currentTimeMillis();
+        System.out.println("Created Snapshot at: " + DateUtils.formatTimestamp(snapshotTime));
     }
 
     public void info(String fileName) {
-        File file = new File(folderPath + "/" + fileName);
-        if (file.exists()) {
-            System.out.println("File Name: " + file.getName());
-            System.out.println("Last Modified: " + file.lastModified());
-        } else {
-            System.out.println(fileName + " does not exist.");
-        }
+        var fileInfoUtils = new FileInfoUtils(folderPath);
+        fileInfoUtils.info(fileName);
     }
 
     public void status() {
@@ -90,7 +99,9 @@ public class FileChangeDetector extends ChangeDetector {
             return;
         }
 
-        System.out.println("Created Snapshot at: " + snapshotTime);
+        detectChanges();
+
+        System.out.println("Created Snapshot at: " + DateUtils.formatTimestamp(snapshotTime));
         for (String message : changeMessages) {
             System.out.println(message);
         }

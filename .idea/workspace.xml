@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6af9302-f0ee-4dc8-99f5-d315d133a364" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/batch_graduation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/batch_graduation.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/students.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/students.txt" afterDir="false" />
-    </list>
+    <list default="true" id="f6af9302-f0ee-4dc8-99f5-d315d133a364" name="Changes" comment="Mark 9: Added functionality to detect deleted, added files. Added DateUtils class. Added FileInfo Class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -43,7 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/tlz27/IdeaProjects/development-java",
+    "last_opened_file_path": "C:/Users/tlz27/IdeaProjects/utmlabs/src/main/resources/lab2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,6 +52,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tlz27\IdeaProjects\utmlabs\src\main\resources\lab2" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lab2" />
+      <recent name="org.utm.lab2.utils" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="utmlabs" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
@@ -96,8 +101,33 @@
       <workItem from="1697385324759" duration="1264000" />
       <workItem from="1697741596694" duration="1834000" />
       <workItem from="1697890870324" duration="4200000" />
-      <workItem from="1698128338298" duration="4064000" />
+      <workItem from="1698128338298" duration="7344000" />
     </task>
+    <task id="LOCAL-00001" summary="Mark 8: Added functionality commit command and status command.">
+      <option name="closed" value="true" />
+      <created>1698423251769</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698423251769</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Mark 8: Added functionality commit command and status command.">
+      <option name="closed" value="true" />
+      <created>1698423283538</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698423283538</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Mark 9: Added functionality to detect deleted, added files. Added DateUtils class. Added FileInfo Class">
+      <option name="closed" value="true" />
+      <created>1698426408094</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698426408094</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +143,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Mark 8: Added functionality commit command and status command." />
+    <MESSAGE value="Mark 9: Added functionality to detect deleted, added files. Added DateUtils class. Added FileInfo Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mark 9: Added functionality to detect deleted, added files. Added DateUtils class. Added FileInfo Class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -131,21 +166,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/utm/lab1/factory/BeanFactory.java</url>
           <line>79</line>
           <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/utm/lab2/services/FileChangeDetector.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/utm/lab2/services/FileChangeDetector.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/utm/lab2/services/FileChangeDetector.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
