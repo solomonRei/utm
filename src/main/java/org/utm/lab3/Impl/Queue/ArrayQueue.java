@@ -2,6 +2,8 @@ package org.utm.lab3.Impl.Queue;
 
 import org.utm.lab3.interfaces.Queue;
 
+import java.util.NoSuchElementException;
+
 public class ArrayQueue<T> implements Queue<T> {
 
     private final T[] array;
@@ -12,7 +14,7 @@ public class ArrayQueue<T> implements Queue<T> {
 
     private int size = 0;
 
-    private static final int DEFAULT_CAPACITY = 10;
+    private static final int DEFAULT_CAPACITY = 1000;
 
     @SuppressWarnings("unchecked")
     public ArrayQueue() {
@@ -21,7 +23,7 @@ public class ArrayQueue<T> implements Queue<T> {
 
     public void enqueue(T item) {
         if (size == array.length) {
-            throw new IllegalStateException("Queue is full");
+            throw new NoSuchElementException("Queue is full");
         }
         rear = (rear + 1) % array.length;
         array[rear] = item;
@@ -30,7 +32,7 @@ public class ArrayQueue<T> implements Queue<T> {
 
     public T dequeue() {
         if (isEmpty()) {
-            throw new IllegalStateException("Queue is empty");
+            throw new NoSuchElementException("Queue is empty");
         }
         T item = array[front];
         array[front] = null;
@@ -41,7 +43,7 @@ public class ArrayQueue<T> implements Queue<T> {
 
     public T front() {
         if (isEmpty()) {
-            throw new IllegalStateException("Queue is empty");
+            throw new NoSuchElementException("Queue is empty");
         }
         return array[front];
     }

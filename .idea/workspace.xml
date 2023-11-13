@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6af9302-f0ee-4dc8-99f5-d315d133a364" name="Changes" comment="Mark 10: added Scheduler and concurrency multithreading approach">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f6af9302-f0ee-4dc8-99f5-d315d133a364" name="Changes" comment="lab 3, added implementations for Queue and Stack interfaces">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/utm/lab2/services/abstracts/AbstractChangeDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/utm/lab2/services/abstracts/AbstractChangeDetector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/lab2/FacultyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lab2/FacultyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/lab2/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/utm/lab3/Impl/Queue/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/utm/lab3/Impl/Queue/ArrayQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,92 @@
       <recent name="org.utm.lab2.utils" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in utmlabs">
+    <configuration name="All in utmlabs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="utmlabs" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayDownQueueTest and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="utmlabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Queue" />
+      <option name="MAIN_CLASS_NAME" value="Queue.AbstractQueueTest" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="Queue.ArrayDownQueueTest" />
+        <pattern testClass="Queue.ArrayQueueTest" />
+        <pattern testClass="Queue.LinkedListQueueTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayDownQueueTest,shouldRemainStableAfterManyOperations and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="utmlabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Queue" />
+      <option name="MAIN_CLASS_NAME" value="Queue.AbstractQueueTest" />
+      <option name="METHOD_NAME" value="shouldRemainStableAfterManyOperations" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="Queue.ArrayDownQueueTest,shouldRemainStableAfterManyOperations" />
+        <pattern testClass="Queue.ArrayQueueTest,shouldRemainStableAfterManyOperations" />
+        <pattern testClass="Queue.LinkedListQueueTest,shouldRemainStableAfterManyOperations" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayStackTest and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="utmlabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Stack" />
+      <option name="MAIN_CLASS_NAME" value="Stack.AbstractStackTest" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="Stack.ArrayStackTest" />
+        <pattern testClass="Stack.ArrayUpStackTest" />
+        <pattern testClass="Stack.LinkedListStackTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListStackTest.shouldHandleDeepStacksEfficiently" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="utmlabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Stack" />
+      <option name="MAIN_CLASS_NAME" value="Stack.LinkedListStackTest" />
+      <option name="METHOD_NAME" value="shouldHandleDeepStacksEfficiently" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="utmlabs" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -98,6 +181,15 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in utmlabs" />
+        <item itemvalue="JUnit.ArrayDownQueueTest,shouldRemainStableAfterManyOperations and 2 more" />
+        <item itemvalue="JUnit.ArrayDownQueueTest and 2 more" />
+        <item itemvalue="JUnit.LinkedListStackTest.shouldHandleDeepStacksEfficiently" />
+        <item itemvalue="JUnit.ArrayStackTest and 2 more" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -116,7 +208,7 @@
       <workItem from="1697890870324" duration="4200000" />
       <workItem from="1698128338298" duration="13838000" />
       <workItem from="1699605209777" duration="186000" />
-      <workItem from="1699605463142" duration="5637000" />
+      <workItem from="1699605463142" duration="10675000" />
     </task>
     <task id="LOCAL-00001" summary="Mark 8: Added functionality commit command and status command.">
       <option name="closed" value="true" />
@@ -166,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698431476951</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lab 3, added implementations for Queue and Stack interfaces">
+      <option name="closed" value="true" />
+      <created>1699905262193</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699905262193</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +289,8 @@
     <MESSAGE value="Mark 8: Added functionality info command (FileInfoUtils.class). Added DateUtils class." />
     <MESSAGE value="Changed the structure, to use inheritance and polymorphism" />
     <MESSAGE value="Mark 10: added Scheduler and concurrency multithreading approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mark 10: added Scheduler and concurrency multithreading approach" />
+    <MESSAGE value="lab 3, added implementations for Queue and Stack interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab 3, added implementations for Queue and Stack interfaces" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -220,5 +321,8 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/utmlabs$All_in_utmlabs.ic" NAME="All in utmlabs Coverage Results" MODIFIED="1699910198031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
