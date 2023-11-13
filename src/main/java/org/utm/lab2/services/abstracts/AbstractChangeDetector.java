@@ -6,9 +6,12 @@ import org.utm.lab2.utils.files.factory.FileDetailsFactory;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 public abstract class AbstractChangeDetector extends ChangeDetector {
 
@@ -42,12 +45,19 @@ public abstract class AbstractChangeDetector extends ChangeDetector {
         File[] listOfFiles = getListOfFiles();
         if (listOfFiles == null) return;
 
+        var currentFileNames = Arrays.stream(listOfFiles)
+                .filter(File::isFile)
+                .map(File::getName)
+                .collect(Collectors.toSet());
+
         for (File file : listOfFiles) {
             if (file.isFile()) {
                 long lastModified = file.lastModified();
                 fileLastModifiedMap.put(file.getName(), lastModified);
             }
         }
+
+        fileLastModifiedMap.keySet().removeIf(fileName -> !currentFileNames.contains(fileName));
 
         snapshotTime = System.currentTimeMillis();
     }

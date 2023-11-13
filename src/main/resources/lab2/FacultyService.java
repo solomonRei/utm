@@ -43,6 +43,10 @@ public class FacultyService {
         }
     }
 
+    public void test() {
+
+    }
+
     public void saveFaculty(String FacultyName, String abbreviation, String studyField) {
         if (isValidStudyField(studyField)) {
             if (getFacultyIdByAbbreviation(abbreviation) != null) {

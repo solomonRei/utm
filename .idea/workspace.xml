@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6af9302-f0ee-4dc8-99f5-d315d133a364" name="Changes" comment="Mark 10: added Scheduler and concurrency multithreading approach">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/utm/lab2/services/abstracts/AbstractChangeDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/utm/lab2/services/abstracts/AbstractChangeDetector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/lab2/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lab2/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/lab2/FacultyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lab2/FacultyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/lab2/test.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +31,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2Vsxk8Q9fLIJKoPaeDmeBfJnakY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -43,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/tlz27/IdeaProjects/utmlabs/src/main/resources/lab2",
+    "last_opened_file_path": "C:/Users/tlz27/IdeaProjects/development-java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,6 +77,7 @@
         <option name="myRunnerSettings" />
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
+            <option name="cmdOptions" />
             <option name="profiles">
               <set />
             </option>
@@ -81,6 +87,9 @@
             <option name="pomFileName" />
             <option name="profilesMap">
               <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$" />
@@ -106,6 +115,8 @@
       <workItem from="1697741596694" duration="1834000" />
       <workItem from="1697890870324" duration="4200000" />
       <workItem from="1698128338298" duration="13838000" />
+      <workItem from="1699605209777" duration="186000" />
+      <workItem from="1699605463142" duration="5637000" />
     </task>
     <task id="LOCAL-00001" summary="Mark 8: Added functionality commit command and status command.">
       <option name="closed" value="true" />
